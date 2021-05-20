@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc sequential_min_max.c find_min_max.c utils.c  -o sequential_min_max
+./sequential_min_max 3 5
